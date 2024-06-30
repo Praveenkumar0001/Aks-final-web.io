@@ -1,0 +1,198 @@
+
+        /* Your CSS code here */
+        /* Importing fonts from Google */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        /* Reseting */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #eaf6f6;
+            min-height: 100vh;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .photo-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .photo-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .photo-card h2 {
+            font-size: 24px;
+        }
+        .owl-carousel .owl-item {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .owl-carousel .owl-item .card {
+            padding: 30px;
+            position: relative;
+        }
+
+        .owl-carousel .owl-stage-outer {
+            overflow-y: auto !important;
+            padding-bottom: 40px;
+        }
+
+        .owl-carousel .owl-item img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .owl-carousel .owl-item .card .name {
+            position: absolute;
+            bottom: -20px;
+            left: 33%;
+            color: #101c81;
+            font-size: 1.1rem;
+            font-weight: 600;
+            background-color: #fcfefe;
+            padding: 0.3rem 0.4rem;
+            border-radius: 5px;
+            box-shadow: 2px 3px 15px #3c405a;
+        }
+
+        .owl-carousel .owl-item .card {
+            opacity: 0.2;
+            transform: scale3d(0.8, 0.8, 0.8);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .owl-carousel .owl-item.active.center .card {
+            opacity: 1;
+            transform: scale3d(1, 1, 1);
+        }
+
+        .owl-carousel .owl-dots {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .owl-theme .owl-dots .owl-dot span {
+            height: 20px;
+            background: #2a6ba3 !important;
+            border-radius: 2px !important;
+            opacity: 0.8;
+        }
+
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            height: 13px;
+            width: 13px;
+            opacity: 1;
+            transform: translateY(2px);
+            background: #83b8e7 !important;
+        }
+
+        @media(min-width: 480.6px) and (max-width: 575.5px) {
+            .owl-carousel .owl-item .card .name {
+                left: 24%;
+            }
+        }
+
+        @media(max-width: 360px) {
+            .owl-carousel .owl-item .card .name {
+                left: 30%;
+            }
+        }
+       .set-up{
+        display: flex;
+        align-items: center; /* Vertical alignment */
+    }
+.form {
+    flex: 1; /* Take up available space */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.image {
+    flex: 1; /* Take up available space */
+    text-align: center; /* Center the image horizontally */
+}
+
+        .image {
+            flex: 1;
+            padding: 20px;
+        }
+
+       
+        .form h2 {
+            text-align: center;
+        }
+
+        .form label,
+        .form input,
+        .form select {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .form input,
+        .form select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }   
+        .img-setup{
+            width: 24% !important;
+            border-radius: 5%;
+        }
+        .size-css{
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        /* .img-style{
+            height: 100px !important;
+            width: 50% !important;
+        } */
+        
